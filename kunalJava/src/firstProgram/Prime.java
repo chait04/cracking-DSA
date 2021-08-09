@@ -1,3 +1,5 @@
+package firstProgram;
+
 import java.util.Scanner;
 
 public class Prime {
@@ -6,7 +8,7 @@ public class Prime {
         int num = input.nextInt();
 
         // if (num == 4) {
-        //     return;
+        // return;
         // }
 
         int temp = 2;

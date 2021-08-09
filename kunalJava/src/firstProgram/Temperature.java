@@ -1,4 +1,4 @@
-package com.chaitanya;
+package firstProgram;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Temperature {
 
         float tempInCel = in.nextFloat();
 
-        float tempInFar = (tempInCel * 9/5) + 32;
+        float tempInFar = (tempInCel * 9 / 5) + 32;
         System.out.println("Temp in Far: " + tempInFar);
     }
 }
