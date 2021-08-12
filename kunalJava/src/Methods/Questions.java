@@ -7,14 +7,13 @@ public class Questions {
         Scanner sc = new Scanner(System.in);
         // int num = sc.nextInt();
         // System.out.println(isPrime(num));
-        System.out.println(kunalIsPrime(29));
+        System.out.println(kunalIsPrime(103));
 
         // call the armstrong num
         for (int i = 100; i < 1000; i++) {
             if (isArmstrong(i)) {
                 // System.out.print(i + " ");
             }
-
         }
     }
 
@@ -54,11 +53,6 @@ public class Questions {
         }
         int check = 2;
 
-        // using while loop coz we wanted to check, if mod of numbers less than 4 is
-        // equal to 0 or not.
-        // first check 2 % num == 0
-        // seconf check 3 % num ==0
-        // these are the only two conditions, we are cheking
         while (check * check <= n) {
             if (n % check == 0) {
                 return false;
