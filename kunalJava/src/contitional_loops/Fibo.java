@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Fibo {
 
     // fibonacci numbers
-    // sum of prev 2 nums- 0,1,1,2,3,4,5
+    // sum of prev 2 nums- 0,1,1,2,3,5
     // find num at nth position
 
     // a | b
