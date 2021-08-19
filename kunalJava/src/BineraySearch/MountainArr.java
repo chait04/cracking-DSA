@@ -1,10 +1,8 @@
 package BineraySearch;
 
-import java.lang.Thread.State;
-
 public class MountainArr {
     public static void main(String[] args) {
-        int[] arr = { 0, 2, 61, 0 };
+        int[] arr = { 0, 2, 34, 56, 34532, 61, 0 };
         System.out.println(peekIndexMountainArr(arr));
 
     }

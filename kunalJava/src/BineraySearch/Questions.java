@@ -22,9 +22,9 @@ public class Questions {
         int target3 = 7;
         // System.out.println(findFloor(arr, target));
         // System.out.println(findCeiling(arr, target));
-        System.out.println(nextGreatestCharacter(arr2, target2));
+        // System.out.println(nextGreatestCharacter(arr2, target2));
 
-        // System.out.println(Arrays.toString(searchRange(arr3, target3)));
+        System.out.println(Arrays.toString(searchRange(arr3, target3)));
     }
 
     // find the index of greatest number smaller than target (num <= target)
